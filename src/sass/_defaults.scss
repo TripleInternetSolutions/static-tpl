@@ -1,0 +1,35 @@
+*:focus {
+  outline: 1px solid red;
+}
+
+body {
+  text-align: right;
+}
+
+img {
+  max-width: 100%;
+}
+
+*:not(.cms) {
+  a {
+    color: inherit;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+html[dir='rtl'] {
+  .navbar-nav {
+    .nav-item {
+      &.dropdown {
+        .dropdown-menu {
+          text-align: right;
+          left: unset;
+          right: 0;
+        }
+      }
+    }
+  }
+}
