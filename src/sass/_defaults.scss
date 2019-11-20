@@ -2,10 +2,6 @@
   outline: 1px solid red;
 }
 
-body {
-  text-align: right;
-}
-
 img {
   max-width: 100%;
 }
@@ -21,6 +17,10 @@ img {
 }
 
 html[dir='rtl'] {
+  body {
+    text-align: right;
+  }
+
   .navbar-nav {
     .nav-item {
       &.dropdown {
