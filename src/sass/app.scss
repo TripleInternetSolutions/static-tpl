@@ -1,8 +1,6 @@
 // Variables
 @import 'variables';
 
-@import "defaults";
-
-//@import "partials/part";
-
-//@import "partials/page";
+@import "partials/animations";
+@import "partials/global";
+//@import 'partials/rtl';
